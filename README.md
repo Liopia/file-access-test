@@ -1,1 +1,3 @@
-Test repo (tmp/wip) - new data
+Test repo (tmp/wip)
+
+Editing contents with Quill.js
