@@ -1,0 +1,113 @@
+{
+  "header": {
+    "nav_items": [
+      {
+        "title": "About",
+        "url": "/about",
+        "external": false
+      },
+      {
+        "title": "Programs",
+        "url": "/programs",
+        "external": false
+      },
+      {
+        "title": "Get Involved",
+        "url": "/get-involved",
+        "external": false
+      },
+      {
+        "title": "News",
+        "url": "/news",
+        "external": false
+      }
+    ],
+    "nav_menu_buttons": [
+      {
+        "title": "Volunteer",
+        "url": "/get-involved/volunteer",
+        "external": true
+      },
+      {
+        "title": "Donate",
+        "url": "",
+        "external": true
+      }
+    ],
+    "nav_link_right": {
+      "title": "Contact",
+      "url": "/contact",
+      "external": false
+    }
+  },
+  "footer": {
+    "columns": [
+      {
+        "column_title": "Programs",
+        "nav_items": [
+          {
+            "hidden": false,
+            "title": "Black Resilience Fund",
+            "url": "/programs/black-resilience-fund",
+            "external": false
+          },
+          {
+            "hidden": false,
+            "title": "Power Hour",
+            "url": "/programs/power-hour",
+            "external": false
+          },
+          {
+            "hidden": false,
+            "title": "Solidarity Squad",
+            "url": "/programs/solidarity-squad",
+            "external": false
+          },
+          {
+            "hidden": false,
+            "title": "Blackstreet Bakery",
+            "url": "/programs/blackstreet-bakery",
+            "external": false
+          },
+          {
+            "hidden": false,
+            "title": "Equity & Beyond",
+            "url": "/programs/equity-and-beyond",
+            "external": false
+          },
+          {
+            "hidden": false,
+            "title": "Healing Initiatives",
+            "url": "/programs/healing-initiatives",
+            "external": false
+          }
+        ],
+        "hidden": false
+      },
+      {
+        "column_title": "More",
+        "nav_items": [
+          {
+            "hidden": false,
+            "title": "Press Kit",
+            "url": "",
+            "external": false
+          },
+          {
+            "hidden": false,
+            "title": "FAQ",
+            "url": "/faq",
+            "external": false
+          },
+          {
+            "hidden": false,
+            "title": "Newsletter",
+            "url": "",
+            "external": false
+          }
+        ],
+        "hidden": false
+      }
+    ]
+  }
+}

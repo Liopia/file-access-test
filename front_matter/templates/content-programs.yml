@@ -1,0 +1,39 @@
+---
+label: Content - Programs
+hide_body: true
+fields:
+- name: supertitle
+  type: text
+  config:
+    required: false
+  label: Supertitle
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
+- name: link
+  type: field_group
+  config: {}
+  fields:
+  - name: link
+    type: include
+    config: {}
+    template: partial-link
+    label: Link
+  label: Link
+- name: image
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: include
+    config: {}
+    template: partial-image
+    label: Image
+  label: Image
