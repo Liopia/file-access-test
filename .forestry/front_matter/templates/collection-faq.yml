@@ -1,0 +1,42 @@
+---
+label: Collection - FAQ
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Question
+- name: answer
+  type: text
+  config:
+    required: true
+  label: Answer
+- name: category
+  type: text
+  config:
+    required: true
+  label: Category
+- name: seo
+  type: field_group
+  config: {}
+  fields:
+  - name: seo
+    type: include
+    config: {}
+    template: partial-seo
+    label: SEO
+  label: SEO
+pages:
+- src/data/faq/FAQ/blandit-nisi-eu-id-consequat.feug-s-sollicitudin-blandit-montes.md
+- src/data/faq/FAQ/blandit-nisi-eu-id-consequat.feugiat-interdum-massa-cursus-sollicitt-montes.md
+- src/data/faq/FAQ/blandit-nisi-eu-id-consequat.feugiat-interdum-massa-cursus-sollicitudin-blandit-montes.md
+- src/data/faq/FAQ/dolor-sit-amet-convut-labore-et-dolore.md
+- src/data/faq/FAQ/lorem-ipsum-d-aliqua.ut-enim-ad-minim-veniam.md
+- src/data/faq/FAQ/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua.ut-enim-ad-minim-veniam.md
+- src/data/faq/FAQ/lorem-ipsum-dolor-sit-amet-consectetur-adipiscinod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua.ut-enim-ad-minim-veniam.md
+- src/data/faq/FAQ/lorem-ipsum-dolor-sit-amet-convut-labore-et-dolore-magna-aliqua.ut-enim-ad-minim-veniam.md
+- src/data/faq/FAQ/lorem-ipsum-veniasm.md
+- src/data/faq/FAQ/nisii-eu-id-consequat.feugiat-interdum-massa-cursus-sollicitudin-blandit-montes.md
+- src/data/faq/FAQ/sed-ut-perspiciatis-unde-omnis.test-symboles.iste-natus-error.md
+- src/data/faq/FAQ/sed-ut-perspiciatis-unde-omnis.test-symboless.iste-natus-error.md

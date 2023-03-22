@@ -1,0 +1,71 @@
+---
+label: Content - Quote Carousel
+hide_body: true
+fields:
+- name: slides
+  type: field_group_list
+  fields:
+  - name: quote
+    type: text
+    config:
+      required: false
+    label: Quote
+  - name: staff_member
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: staff
+        file: 
+        path: 
+    label: Staff Member
+    description: If the quote is from a Staff Member, select from this dropdown. Otherwise,
+      simply fill in the fields below.
+  - name: custom
+    type: field_group
+    config: {}
+    fields:
+    - name: name
+      type: text
+      config:
+        required: false
+      label: Name
+    - name: org
+      type: text
+      config:
+        required: false
+      label: Affiliation or Occupation
+      description: 'example: Volunteer'
+    - name: image
+      type: include
+      config: {}
+      template: partial-image
+      label: Image
+    - name: color
+      type: select
+      default: []
+      config:
+        required: false
+        options:
+        - magenta
+        - yellow
+        - orange
+        - plum
+        - blue
+        - green
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: Image Border Color
+    label: Non Staff Member
+    description: If the quote is from a non staff member, enter information here.
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Slides

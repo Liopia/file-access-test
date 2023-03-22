@@ -1,0 +1,33 @@
+---
+label: Partial - Program Quick Link
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: url
+  type: text
+  config:
+    required: false
+  label: URL
+- name: external_link
+  type: boolean
+  label: External Link
+- name: link_icon
+  type: select
+  default: Arrow
+  config:
+    required: false
+    options:
+    - Arrow
+    - Download
+    - Exlink
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Link Icon
+  description: Icon that appears on Quick Link button.

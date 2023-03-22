@@ -1,0 +1,18 @@
+---
+label: Partial - Link
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: url
+  type: text
+  config:
+    required: false
+  label: URL
+- name: external
+  type: boolean
+  label: External Link
+  description: 'Enable to indicate this is an external link. <br>Default state: disabled'
