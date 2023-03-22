@@ -1,0 +1,28 @@
+---
+label: Page - FAQ Index
+hide_body: true
+fields:
+- name: text
+  type: text
+  config:
+    required: false
+  label: Title
+- name: title
+  type: text
+  config:
+    required: false
+  label: Index Title
+  hidden: true
+  default: FAQ Index
+- name: seo
+  type: field_group
+  config: {}
+  fields:
+  - name: seo
+    type: include
+    config: {}
+    template: partial-seo
+    label: SEO
+  label: SEO
+pages:
+- src/data/faq/index.md

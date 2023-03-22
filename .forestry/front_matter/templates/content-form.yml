@@ -1,0 +1,75 @@
+---
+label: Content - Form
+hide_body: true
+fields:
+- name: recipients
+  type: text
+  config:
+    required: false
+  label: Recipient Email(s)
+- name: form_title
+  type: text
+  config:
+    required: false
+  label: Form Title
+- name: form_fields
+  type: blocks
+  label: Form fields
+  template_types:
+  - partial-form-single-line-text
+  - partial-form-multi-line-text
+  - partial-form-dropdown
+  - partial-form-radio-buttons
+  - partial-form-multi-select
+  config:
+    min: 
+    max: 
+  description: 'By default, all forms include these fields:<br>First Name, Last Name,
+    Phone, Email Address, Message<br><br>Any additional fields added here will be
+    displayed above the message field '
+- name: additional_contact_info
+  type: field_group
+  config: {}
+  fields:
+  - name: contact_info
+    type: field_group_list
+    fields:
+    - name: blurb
+      type: text
+      config:
+        required: false
+      label: Blurb
+      default: 'For media inquiries, contact:'
+    - name: contact
+      type: text
+      config:
+        required: false
+      label: Contact Info
+    config:
+      min: 
+      max: 
+      labelField: contact
+    label: Contact Info
+  label: Additional Contact Info
+  description: Add add additional contact info you'd like to display besides contact
+    info in the settings
+- name: call_to_action
+  type: field_group
+  config: {}
+  fields:
+  - name: cta
+    type: include
+    config: {}
+    template: partial-text-group
+    label: CTA
+  label: Call To Action
+  description: 'This is a box that shows below the contact info box. '
+- name: text_content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Text Content Below Form

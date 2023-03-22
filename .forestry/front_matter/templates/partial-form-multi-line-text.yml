@@ -1,0 +1,18 @@
+---
+label: Partial - Form - Multi Line Text
+hide_body: true
+fields:
+- name: label
+  type: text
+  config:
+    required: false
+  label: Label
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+- name: required
+  type: boolean
+  label: Required?
+  description: Disabled by default. Toggle to enable

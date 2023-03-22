@@ -1,0 +1,29 @@
+---
+label: Content - Sheet - Two Images
+hide_body: true
+fields:
+- name: text_grooup
+  type: include
+  config: {}
+  template: partial-text-group
+  label: Text Group
+- name: horizontal_image
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: include
+    config: {}
+    template: partial-image
+    label: Image
+  label: Horizontal Image
+- name: vertical_image
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: include
+    config: {}
+    template: partial-image
+    label: Image
+  label: Vertical Image

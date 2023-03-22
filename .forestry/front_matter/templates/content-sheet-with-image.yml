@@ -1,0 +1,74 @@
+---
+label: Content - Sheet - Textbox With Image
+hide_body: true
+fields:
+- name: superheadline
+  type: text
+  config:
+    required: false
+  label: Superheadline
+  description: 'Smaller text above the large, fancy text '
+- name: headline_text
+  type: text
+  config:
+    required: false
+  label: Headline Text
+  description: Big colorful text sitting atop the module
+- name: image
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: include
+    config: {}
+    template: partial-image
+    label: Image
+  label: Image
+- name: text_box
+  type: field_group
+  config: {}
+  fields:
+  - name: supertitle
+    type: text
+    config:
+      required: false
+    label: Supertitle
+    description: Small text, preceded by an orange hyphen
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+    description: Large, bold text
+  - name: subtitle
+    type: text
+    config:
+      required: false
+    description: Smaller, bold text
+    label: Subtitle
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+    description: Smaller, regular text
+  - name: link
+    type: field_group
+    config: {}
+    fields:
+    - name: link
+      type: include
+      config: {}
+      template: partial-link
+      label: Link
+    label: Link
+  label: Text Box
+- name: color_scheme
+  type: include
+  config: {}
+  template: partial-sheet-textbox-and-shadow-colors
+  label: Color Scheme
+- name: textbox_left
+  type: boolean
+  label: Textbox Left
+  description: 'While On: Textbox hugs left side of sheet module'
