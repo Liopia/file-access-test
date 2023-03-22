@@ -1,0 +1,19 @@
+---
+label: Content - Sheet - Splitted One Image
+hide_body: true
+fields:
+- name: text_grooup
+  type: include
+  config: {}
+  template: partial-text-group
+  label: Text Group
+- name: image
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: include
+    config: {}
+    template: partial-image
+    label: Image
+  label: Image

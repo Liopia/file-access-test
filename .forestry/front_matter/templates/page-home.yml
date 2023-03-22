@@ -1,0 +1,53 @@
+---
+label: Page - Home
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: layout
+  type: text
+  config:
+    required: true
+  label: Layout
+  default: src/data/pages/index.md
+  hidden: true
+- name: hero
+  type: field_group
+  config: {}
+  fields:
+  - name: home_hero
+    type: include
+    config: {}
+    template: partial-home-hero
+    label: Home Hero
+  label: Hero
+- name: page_content
+  type: blocks
+  label: Page Content
+  template_types:
+  - content-programs
+  - content-sheet-two-image
+  - content-sheet-splitted-one-image
+  - content-latest-news
+  - content-image-above-footer
+  - content-kicker-newsletter
+  - content-sheet-with-image
+  config:
+    min: 
+    max: 
+  description: Main page content parts
+- name: seo
+  type: field_group
+  config: {}
+  fields:
+  - name: seo
+    type: include
+    config: {}
+    template: partial-seo
+    label: SEO
+  label: SEO
+pages:
+- src/data/pages/index.md

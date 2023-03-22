@@ -1,0 +1,9 @@
+---
+label: Content - Latest Events
+hide_body: true
+fields:
+- name: three_column_cards
+  type: include
+  config: {}
+  template: content-three-column-cards
+  label: Three Column Cards

@@ -1,0 +1,22 @@
+---
+label: Partial - Power Hour
+hide_body: true
+display_field: note
+fields:
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: true
+    date_format: MM/DD/YYYY
+    time_format: 
+    display_utc: false
+    export_format: YYYY-MM-DD
+  default: ''
+- name: note
+  type: text
+  config:
+    required: false
+  label: Note
+  description: Optional note about this link

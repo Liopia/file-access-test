@@ -1,0 +1,22 @@
+---
+label: Content - Story Flow
+hide_body: true
+fields:
+- name: story_flow
+  type: field_group_list
+  fields:
+  - name: image
+    type: include
+    config: {}
+    template: partial-image
+    label: Image
+  - name: text_content
+    type: include
+    config: {}
+    template: partial-text-group
+    label: Text Content
+  config:
+    min: 
+    max: 
+    labelField: title
+  label: Story Flow

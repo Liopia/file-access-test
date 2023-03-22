@@ -1,0 +1,23 @@
+---
+label: Partial - Sheet - Textbox with Image Colors
+hide_body: true
+fields:
+- name: color_scheme
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - orange blue
+    - yellow blue
+    - plum blue
+    - magenta blue
+    - magenta plum
+    - green green-dark
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Color Scheme
+  description: Headline Text &amp; Accent Color, Box-Shadow Color<br>

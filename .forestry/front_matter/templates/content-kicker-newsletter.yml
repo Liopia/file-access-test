@@ -1,0 +1,8 @@
+---
+label: Content - Kicker Newsletter
+hide_body: true
+fields:
+- name: enable_newsletter
+  type: boolean
+  label: Add Newsletter Kicker
+  default: true

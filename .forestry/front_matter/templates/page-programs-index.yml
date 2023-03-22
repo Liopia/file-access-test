@@ -1,0 +1,46 @@
+---
+label: Page - Index
+hide_body: true
+display_field: title
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  hidden: false
+  default: Programs
+- name: hero
+  type: field_group
+  config: {}
+  fields:
+  - name: hero
+    type: include
+    config: {}
+    template: partial-hero-text-only
+    label: Hero
+  label: Hero
+- name: seo
+  type: field_group
+  config: {}
+  fields:
+  - name: seo
+    type: include
+    config: {}
+    template: partial-seo
+    label: SEO
+  label: SEO
+- name: programs
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: programs
+  label: Programs
+  description: Programs will appear on the index in this order. <br>(Drag and drop
+    to re-order!)
+pages:
+- src/data/programs/index.md
