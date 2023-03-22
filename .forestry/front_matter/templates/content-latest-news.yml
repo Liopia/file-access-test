@@ -1,8 +1,0 @@
----
-label: Content - Latest News
-hide_body: true
-fields:
-- name: enable_latest_news
-  type: boolean
-  label: Add Latest News
-  default: true

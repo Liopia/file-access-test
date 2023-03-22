@@ -1,9 +1,0 @@
----
-label: Partial - Three Column Cards
-hide_body: true
-fields:
-- name: module_text
-  type: include
-  config: {}
-  template: partial-text-group
-  label: Module Text
