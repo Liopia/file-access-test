@@ -73,11 +73,11 @@ page_content:
     subtitle: ''
     body: 'At the foundation of Brown Hope are the 12 Principles of Hope. Together,
       these principles inspire ours hearts, minds, and voices to embrace abundance,
-      promote solidarity, and nurture a world of healing and justice. '
+      promote solidarity, and nurture a world of healing and justice.'
   - src: "/v1666192122/samples/landscapes/nature-mountains.jpg"
     title: Land Acknowledgment
-    body: In Brown Hope’s attempts to center Indigenous peoples, we recognize and
-      uplift their fights and struggles in Portland and beyond.
+    body: 'In Brown Hope’s attempts to center Indigenous peoples, we recognize and
+      uplift their fights and struggles in Portland and beyond.'
     links:
     - url: "/about/land-acknowledgment"
       title: Learn More
