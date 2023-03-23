@@ -76,7 +76,7 @@ page_content:
       promote solidarity, and nurture a world of healing and justice. '
   - src: "/v1666192122/samples/landscapes/nature-mountains.jpg"
     title: Land Acknowledgment
-    body: In Brown Hope's attempts to center Indigenous peoples, we recognize and
+    body: In Brown Hope’s attempts to center Indigenous peoples, we recognize and
       uplift their fights and struggles in Portland and beyond.
     links:
     - url: "/about/land-acknowledgment"
