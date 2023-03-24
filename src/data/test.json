@@ -1,1 +1,10 @@
-{"one":{"input_1_1":"purple","input_1_2":"blue"},"two":{"input_2_1":"green","input_2_2":"yellow"}}
+{
+  "one": {
+    "input_1_1": "huzzah!",
+    "input_1_2": "blue"
+  },
+  "two": {
+    "input_2_1": "green",
+    "input_2_2": "yellow"
+  }
+}
