@@ -1,0 +1,10 @@
+{
+  "one": {
+    "input_1_1": "red",
+    "input_1_2": "blue"
+  },
+  "two": {
+    "input_2_1": "green",
+    "input_2_2": "yellow"
+  }
+}
