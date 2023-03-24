@@ -1,0 +1,35 @@
+---
+label: Site - Settings
+hide_body: true
+fields:
+- name: one
+  type: field_group
+  config: {}
+  fields:
+  - name: input_1_1
+    type: text
+    config:
+      required: false
+    label: Text Input 1 1
+  - name: input_1_2
+    type: text
+    config:
+      required: false
+    label: Text Input 1 1
+  label: 'Section One'
+- name: two
+  type: field_group
+  config: {}
+  fields:
+  - name: input_2_1
+    type: text
+    config:
+      required: false
+    label: Text Input 2 1
+  - name: input_2_2
+    type: text
+    config:
+      required: false
+    label: Text Input 2 1
+pages:
+- src/data/test.json
