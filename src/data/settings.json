@@ -42,7 +42,7 @@
       {
         "title": "View All News",
         "url": "/news",
-        "external": false
+        "external": true
       }
     ],
     "body": ""
