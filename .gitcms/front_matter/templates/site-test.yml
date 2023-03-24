@@ -31,5 +31,6 @@ fields:
     config:
       required: false
     label: Text Input 2 1
+  label: 'Section Two'
 pages:
 - src/data/test.json
