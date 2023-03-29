@@ -130,6 +130,33 @@ fields:
         required: false
       label: Nested Repeated Group Input
     label: Repeated Field Group
+  - name: repeated_textarea_md
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Repeated Textarea (WYSIWYG MD)
+  - name: repeated_textarea_html
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Repeated Textarea (WYSIWYG HTML)
+  - name: repeated_textarea_html_inline
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Repeated Textarea (WYSIWYG HTML Inline)
   config:
     min: 
     max: 
