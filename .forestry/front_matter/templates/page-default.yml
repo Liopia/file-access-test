@@ -88,12 +88,13 @@ fields:
   - name: repeated_datefield
     type: datetime
     label: Repeated Datefield
-    description: ''
     config:
       required: false
       date_format: 
       time_format: 
-      display_utc: false
+      display_utc: true
+    description: 'Default: Now, Display: UTC'
+    default: now
   - name: repeated_color_picker
     type: color
     label: Repeated Color Picker
