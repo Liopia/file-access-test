@@ -3,15 +3,60 @@ new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
-sections: 
-upload_dir: uploads
-public_path: "/uploads"
+sections:
+- type: document
+  path: src/data/test.json
+  label: Test
+- type: directory
+  path: src/data/pages
+  label: Pages
+  create: all
+  match: "**/*"
+  templates:
+  - page-default
+- type: directory
+  path: src/data/programs
+  label: Programs
+  create: all
+  match: "**/*"
+  templates:
+  - collection-programs
+- type: directory
+  path: src/data/events
+  label: Events
+  create: all
+  match: "**/*"
+  templates:
+  - collection-events
+- type: directory
+  path: src/data/news
+  label: News
+  create: all
+  match: "**/*"
+  templates:
+  - collection-news
+- type: directory
+  path: src/data/staff
+  label: Staff
+  create: all
+  match: "**/*"
+  templates:
+  - collection-staff
+- type: directory
+  path: src/data/faq
+  label: FAQ
+  create: all
+  match: "**/*"
+  templates:
+  - collection-faq
+- type: document
+  path: src/data/navigation.json
+  label: Navigation
+- type: document
+  path: src/data/settings.json
+  label: Settings
+upload_dir: ''
+public_path: https://res.cloudinary.com/dcauwvtrx/image/upload
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: true
 file_template: ":filename:"
-build:
-  install_dependencies_command: npm install
-  preview_docker_image: forestryio/node:12
-  mount_path: "/srv"
-  working_dir: "/srv"
-  instant_preview_command: npm run develop
