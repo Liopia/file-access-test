@@ -65,6 +65,5 @@ page_content:
             external: false
         supertitle: ''
         subtitle: ''
-seo: ''
 ---
 
