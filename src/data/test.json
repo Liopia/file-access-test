@@ -1,6 +1,6 @@
 {
-  "input_1_1": "Pink",
-  "input_1_2": "Purple",
+  "input_0_1": "Pink",
+  "input_0_2": "Purple",
   "one": {
     "input_1_1": "Red",
     "input_1_2": "Blue"
@@ -8,6 +8,5 @@
   "two": {
     "input_2_1": "Green",
     "input_2_2": "Yellow"
-  },
-  "input_0_1": "this?"
+  }
 }
