@@ -3,7 +3,7 @@ location:
   city: Portland
   state: OR
   street: 5196 NE Hancock Blvd
-  zip: "97212"
+  zip: '97212'
   this_location_has_a_link: false
   title: ''
   url: ''
@@ -13,33 +13,34 @@ location:
   location_link: ''
 hero:
   background_image:
-    src: "/v1669249558/brown-hope-events_wi18de.jpg"
+    src: /v1669249558/brown-hope-events_wi18de.jpg
     alt: People gathered for Juneteeth celebration
   heading: Juneteenth
   intro: ''
   superheading: ''
   body_copy: ''
   links: []
-date: 2023-06-19T01:00:00-07:00
+date: 2023-06-19T08:00:00.000Z
 time: All Day
-event_link: https://google.com
+event_link: 'https://google.com'
 volunteer_link:
   title: Sign Up To Volunteer
-  url: "/"
+  url: /
   external: false
 cost: Free
 event_program: src/data/programs/programs/solidarity-squad.md
-excerpt: Nisl vulputate nisi lacus, vel tincidunt at in. Mus nisl, justo sapien rhoncus,
-  pulvinar consequat.
+excerpt: >-
+  Nisl vulputate nisi lacus, vel tincidunt at in. Mus nisl, justo sapien
+  rhoncus, pulvinar consequat.
 multiple_day_event: false
 multiple_day_date: ''
 title: Juneteenth
-exceprt: Nisl vulputate nisi lacus, vel tincidunt at in. Mus nisl, justo sapien rhoncus,
-  pulvinar consequat.
+exceprt: >-
+  Nisl vulputate nisi lacus, vel tincidunt at in. Mus nisl, justo sapien
+  rhoncus, pulvinar consequat.
 seo:
   meta_title: ''
   meta_description: ''
-
 ---
 # Heading
 
