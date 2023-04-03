@@ -36,8 +36,8 @@ multiple_day_event: false
 multiple_day_date: ''
 title: Juneteenth
 exceprt: >-
-  Nisl vulputate nisi lacus, vel tincidunt at in. Mus nisl, justo sapien
-  rhoncus, pulvinar consequat.
+  Nisl vulputate nisi lacus, vel tincidunt at in. *Mus nisl, justo sapien
+  rhoncus, pulvinar consequat.*
 seo:
   meta_title: ''
   meta_description: ''
