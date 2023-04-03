@@ -34,7 +34,7 @@ repeater_test:
       nested_repeated_group_input: hi
     repeated_textarea_md: so **bold**
     repeated_textarea_html: <p>so <em>italic</em></p>
-    repeated_textarea_html_inline: 'so <span style="text-decoration: underline;">underlined</span>'
+    repeated_textarea_html_inline: <p>so </p><p><u>underlined</u></p>
     repeated_selection: ''
 ---
 Here there be main content.
