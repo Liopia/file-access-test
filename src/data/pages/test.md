@@ -24,6 +24,7 @@ repeater_test:
       - first
       - second
       - third
+      - Fourth
     repeated_sortable_list:
       - first
       - second
