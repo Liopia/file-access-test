@@ -29,6 +29,9 @@ repeater_test:
       - second
       - first
       - third
+      - xxx
+      - xxx
+      - xxx
     repeated_file_upload: ''
     repeated_multi-file_upload: []
     repeated_field_group:
