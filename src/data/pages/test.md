@@ -26,8 +26,8 @@ repeater_test:
       - third
       - Fourth
     repeated_sortable_list:
-      - first
       - second
+      - first
       - third
     repeated_file_upload: ''
     repeated_multi-file_upload: []
