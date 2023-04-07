@@ -56,7 +56,7 @@ sections:
   path: src/data/settings.json
   label: Settings
 upload_dir: ''
-public_path: https://res.cloudinary.com/dcauwvtrx/image/upload
+public_path: https://res.cloudinary.com/kevin-frankys/image/upload
 front_matter_path: ''
 use_front_matter_path: true
 file_template: ":filename:"
