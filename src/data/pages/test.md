@@ -2,7 +2,7 @@
 title: TEST
 hero:
   background_image:
-    src: ''
+    src: /v1626968407/K_F_SIDES_PASTA-SLAW_web_z5eeos.jpg
     alt: ''
   superheading: ''
   heading: Heading I guess ?
