@@ -1,21 +1,24 @@
 ---
-date: 2024-12-02T12:41:53-08:00
+date: 2024-12-02T20:41:53.000Z
 title: This is the latest post
 hero:
-  src: "/v1667517122/tanushree-rao-kYjDNNRmR7c-unsplash_sshxvx.jpg"
+  src: /v1680938187/test/never-better-design-website-preview_kuodgb.jpg
   alt: Temp Image
 full_article:
   title: rewire.org
-  url: https://www.rewire.org/
+  url: 'https://www.rewire.org/'
   external: true
 author: Miranda Marin
 categories:
-- category: cat
-- category: cat 1
-excerpt: Before joining the protest, Whitten, who had survived childhood abuse and
+  - category: cat
+  - category: cat 1
+excerpt: >-
+  Before joining the protest, Whitten, who had survived childhood abuse and
   homelessness while growing up in Virginia, felt they had nothing to live for.
 news_program: src/data/programs/programs/power-hour.md
-
+seo:
+  meta_title: ''
+  meta_description: ''
 ---
 # There are many ways to support the Black Lives Matter movement.
 
