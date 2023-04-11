@@ -34,9 +34,10 @@ repeater_test:
       - xxx
     repeated_file_upload: ''
     repeated_multi-file_upload:
-      - "/v1626968407/K_F_SIDES_PASTA-SLAW_web_z5eeos.jpg"
-      - "/v1626968407/K_F_SIDES_PASTA-SLAW_web_z5eeos.jpg"
-      - "/v1626968407/K_F_SIDES_PASTA-SLAW_web_z5eeos.jpg"
+      - /v1626968407/K_F_SIDES_PASTA-SLAW_web_z5eeos.jpg
+      - /v1626968407/K_F_SIDES_PASTA-SLAW_web_z5eeos.jpg
+      - /v1626968407/K_F_SIDES_PASTA-SLAW_web_z5eeos.jpg
+      - /v1680938187/test/never-better-design-website-preview_kuodgb.jpg
     repeated_field_group:
       nested_repeated_group_input: hi
     repeated_textarea_md: so **bold**
