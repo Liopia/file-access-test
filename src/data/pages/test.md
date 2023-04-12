@@ -18,7 +18,7 @@ repeater_test:
     repeated_textarea: Textarea
     repeated_number: 69
     repeated_toggle: true
-    repeated_datefield: 2023-03-29T01:41:06.000Z
+    repeated_datefield: '2023-04-12T06:30'
     repeated_color_picker: '#F5A623'
     repeated_tag_field:
       - first
