@@ -12,7 +12,7 @@ hero:
 page_content: []
 seo:
   meta_title: ''
-  meta_description: ''
+  meta_description: So descriptive
 repeater_test:
   - repeated_title: Title
     repeated_textarea: Textarea
