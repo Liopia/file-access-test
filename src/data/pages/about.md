@@ -12,6 +12,11 @@ hero:
   body_copy: ''
   links: []
 page_content:
+  - template: content-latest-events
+    supertitle: ''
+    title: ''
+    subtitle: ''
+    body: ''
   - template: content-story-flow
     story_flow:
       - src: /v1670462176/Reparations_Power_Hour_DSC_3821_maeotz.jpg
