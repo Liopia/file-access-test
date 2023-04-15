@@ -78,7 +78,11 @@ fields:
     default: []
     config:
       required: false
-      options: []
+      options:
+      - one
+      - two
+      - three
+      - four
       source:
         type: simple
         section: 
