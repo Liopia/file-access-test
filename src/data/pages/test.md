@@ -2,7 +2,7 @@
 title: TEST
 hero:
   background_image:
-    src: "/v1626968407/K_F_SIDES_PASTA-SLAW_web_z5eeos.jpg"
+    src: /v1626968407/K_F_SIDES_PASTA-SLAW_web_z5eeos.jpg
     alt: ''
   superheading: ''
   heading: Heading I guess ?
@@ -14,39 +14,39 @@ seo:
   meta_title: ''
   meta_description: So descriptive
 repeater_test:
-- repeated_title: Title
-  repeated_textarea: Textarea
-  repeated_number: 69
-  repeated_toggle: true
-  repeated_datefield: 2023-04-12T06:30
-  repeated_color_picker: "#F5A623"
-  repeated_tag_field:
-  - first
-  - second
-  - third
-  - Fourth
-  repeated_sortable_list:
-  - second
-  - first
-  - third
-  - xxx
-  - xxx
-  - xxx
-  repeated_file_upload: ''
-  repeated_multi-file_upload:
-  - "/v1626968407/K_F_SIDES_PASTA-SLAW_web_z5eeos.jpg"
-  - "/v1626968407/K_F_SIDES_PASTA-SLAW_web_z5eeos.jpg"
-  - "/v1626968407/K_F_SIDES_PASTA-SLAW_web_z5eeos.jpg"
-  - "/v1680938187/test/never-better-design-website-preview_kuodgb.jpg"
-  repeated_field_group:
-    nested_repeated_group_input: hi
-  repeated_textarea_md: so **bold**
-  repeated_textarea_html: "<p>so <em>italic</em></p>"
-  repeated_textarea_html_inline: "<p>so </p><p><u>underlined</u></p>"
-  repeated_selection: one
-  repeated_selection_document_reference: src/data/events/events/juneteenth.md
-  repeated_selection_document_field: nav_link_right
-
+  - repeated_title: Title
+    repeated_textarea: Textarea
+    repeated_number: 69
+    repeated_toggle: true
+    repeated_datefield: '2023-04-12T06:30'
+    repeated_color_picker: '#F5A623'
+    repeated_tag_field:
+      - first
+      - second
+      - third
+      - Fourth
+    repeated_sortable_list:
+      - second
+      - first
+      - third
+      - xxx
+      - xxx
+      - xxx
+    repeated_file_upload: ''
+    repeated_multi-file_upload:
+      - /v1626968407/K_F_SIDES_PASTA-SLAW_web_z5eeos.jpg
+      - /v1626968407/K_F_SIDES_PASTA-SLAW_web_z5eeos.jpg
+      - /v1626968407/K_F_SIDES_PASTA-SLAW_web_z5eeos.jpg
+      - /v1680938187/test/never-better-design-website-preview_kuodgb.jpg
+    repeated_field_group:
+      nested_repeated_group_input: hi
+    repeated_textarea_md: so **bold**
+    repeated_textarea_html: <p>so <em>italic</em></p>
+    repeated_textarea_html_inline: <p>so </p><p><u>underlined</u></p>
+    repeated_selection: one
+    repeated_selection_document_reference: src/data/events/events/juneteenth.md
+    repeated_selection_document_field: nav_link_right
+    test_select_to_individual_news: src/data/news/news/foo.md
 ---
 Here there be main content.
 
