@@ -54,7 +54,7 @@ sections:
   label: Navigation
 - type: document
   path: src/data/settings.json
-  label: Settings
+  label: Settings Page
 upload_dir: ''
 public_path: https://res.cloudinary.com/kevin-frankys/image/upload
 front_matter_path: ''
