@@ -89,6 +89,30 @@ fields:
         file: 
         path: 
     label: Repeated Selection
+  - name: repeated_selection_document_reference
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Repeated Selection (document reference)
+  - name: repeated_selection_document_field
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: documents
+        section: settings
+        file: src/data/settings.json
+        path: latest_events
+    label: Repeated Selection (document field)
   - name: repeated_datefield
     type: datetime
     label: Repeated Datefield
