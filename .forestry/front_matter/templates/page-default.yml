@@ -186,7 +186,7 @@ fields:
       schema:
         format: html
     label: Repeated Textarea (WYSIWYG HTML Inline)
-  - name: test_select_to_settings_page
+  - name: test_select_to_individual_news
     type: select
     default: []
     config:
@@ -194,10 +194,10 @@ fields:
       options: []
       source:
         type: pages
-        section: settings
+        section: individual-news
         file: 
         path: 
-    label: Test Select to settings page
+    label: Test Select to individual news
   config:
     min: 
     max: 
