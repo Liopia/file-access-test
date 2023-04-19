@@ -186,6 +186,18 @@ fields:
       schema:
         format: html
     label: Repeated Textarea (WYSIWYG HTML Inline)
+  - name: test_select_to_settings_page
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: settings
+        file: 
+        path: 
+    label: Test Select to settings page
   config:
     min: 
     max: 
