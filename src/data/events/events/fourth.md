@@ -3,36 +3,42 @@ location:
   city: Portland
   state: OR
   street: 5196 NE Hancock Blvd
-  zip: "97212"
+  zip: '97212'
   this_location_has_a_link: false
   title: ''
   url: ''
   external: false
   location_name: Laurelhurst Park
-  location_has_a_link: false
+  location_has_a_link: ''
   location_link: ''
 hero:
   background_image:
-    src: "/v1669249558/brown-hope-events_wi18de.jpg"
+    src: /v1669249558/brown-hope-events_wi18de.jpg
     alt: People gathered for Juneteeth celebration
   heading: Forth Event
   intro: ''
-date: 2023-01-25T00:00:00.000-08:00
+  superheading: ''
+  body_copy: ''
+  links: []
+date: 2023-01-25T08:00:00.000Z
 time: All Day
-event_link: https://google.com
+event_link: 'https://google.com'
 volunteer_link:
   title: Sign Up To Volunteer
-  url: "/"
-  external: false
+  url: /
+  external: ''
 cost: Free
 event_program: src/data/programs/programs/power-hour.md
-excerpt: Nisl vulputate nisi lacus, vel tincidunt at in. Mus nisl, justo sapien rhoncus,
-  pulvinar consequat.
-multiple_day_event: false
+excerpt: >-
+  Nisl vulputate nisi lacus, vel tincidunt at in. Mus nisl, justo sapien
+  rhoncus, pulvinar consequat.
+multiple_day_event: ''
 multiple_day_date: ''
 title: Forth Event
 exceprt: ''
-
+seo:
+  meta_title: ''
+  meta_description: ''
 ---
 # Heading
 
