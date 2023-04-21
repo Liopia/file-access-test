@@ -7,6 +7,13 @@ fields:
   config:
     required: false
   label: Title
+- name: template
+  type: text
+  config:
+    required: false
+  label: Template
+  hidden: true
+  default: some-cool-template
 - name: hero
   type: field_group
   config: {}
