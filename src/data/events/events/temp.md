@@ -1,43 +1,43 @@
 ---
 location:
-  city: ''
-  state: ''
+  city: Portland
+  state: OR
   location_name: Zoom
   street: ''
   zip: ''
   title: 'Zoom '
-  url: https://some-zoom-link.com
+  url: 'https://some-zoom-link.com'
   external: true
   location_has_a_link: true
   location_link: ''
 hero:
   background_image:
-    src: "/v1668129930/20200709_BlackResilienceFundPdx_FoodBoxes_0125_cdtjob.jpg"
+    src: /v1668129930/20200709_BlackResilienceFundPdx_FoodBoxes_0125_cdtjob.jpg
     alt: temp image
   heading: Temp Event
   intro: ''
   superheading: ''
   body_copy: ''
   links: []
-date: 2023-07-04T00:00:00-07:00
+date: 2023-07-04T07:00:00.000Z
 time: 10am - 12pm
-cost: "$15"
+cost: $15
 volunteer_link:
   title: ''
   url: ''
-  external: false
+  external: ''
 event_link: ''
 multiple_day_event: true
 multiple_day_date: 'July 4, 2023 - July 8, 2023 '
 event_program: []
-excerpt: Ornare in ac, justo elit eget blandit id. Nulla enim ipsum nunc sem nunc
+excerpt: >-
+  Ornare in ac, justo elit eget blandit id. Nulla enim ipsum nunc sem nunc
   sapien hac pellentesque
-title: " Temp Event"
+title: ' Temp Event test'
 exceprt: ''
 seo:
   meta_title: ''
   meta_description: ''
-
 ---
 # Heading1
 
