@@ -9,7 +9,7 @@ location:
   url: ''
   external: false
   location_name: Laurelhurst Park
-  location_has_a_link: false
+  location_has_a_link: ''
   location_link: ''
 hero:
   background_image:
@@ -26,15 +26,15 @@ event_link: 'https://google.com'
 volunteer_link:
   title: Sign Up To Volunteer
   url: /
-  external: false
+  external: ''
 cost: Free
 event_program: src/data/programs/programs/solidarity-squad.md
 excerpt: >-
   Nisl vulputate nisi lacus, vel tincidunt at in. Mus nisl, justo sapien
   rhoncus, pulvinar consequat.
-multiple_day_event: false
+multiple_day_event: ''
 multiple_day_date: ''
-title: Juneteenth
+title: Juneteenth!
 exceprt: >-
   Nisl vulputate nisi lacus, vel tincidunt at in. *Mus nisl, justo sapien
   rhoncus, pulvinar consequat.*
