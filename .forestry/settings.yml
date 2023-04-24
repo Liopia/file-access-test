@@ -53,7 +53,7 @@ sections:
   path: src/data/faq
   label: FAQ
   create: all
-  match: "**/*"
+  match: "*"
   templates:
   - collection-faq
 - type: document
