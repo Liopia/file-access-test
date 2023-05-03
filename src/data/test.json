@@ -9,5 +9,5 @@
     "input_2_1": "Green",
     "input_2_2": "Yellow"
   },
-  "textarea_html": "Hello there."
+  "textarea_html": "<p>This is a nice test.<br>With some <strong>Bold</strong> thrown in!</p><p><em>fun</em></p>"
 }
