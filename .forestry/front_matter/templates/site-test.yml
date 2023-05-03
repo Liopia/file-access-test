@@ -2,6 +2,15 @@
 label: Site - Settings
 hide_body: true
 fields:
+- name: textarea_html
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Textarea (WYSIWYG HTML)
 - name: input_0_1
   type: text
   config:
