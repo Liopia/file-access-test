@@ -26,10 +26,10 @@ repeater_test:
       - third
       - Fourth
     repeated_sortable_list:
+      - xxx
       - second
       - first
       - third
-      - xxx
       - xxx
       - xxx
     repeated_file_upload: ''
@@ -54,7 +54,7 @@ repeater_test:
     repeated_selection: []
     repeated_selection_document_reference: []
     repeated_selection_document_field: []
-    repeated_datefield: ''
+    repeated_datefield: '2023-05-02T23:33'
     repeated_color_picker: ''
     repeated_tag_field: []
     repeated_sortable_list: []
