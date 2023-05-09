@@ -72,6 +72,3 @@ build:
   preview_docker_image: forestryio/node:12
   mount_path: "/srv"
   instant_preview_command: npm run develop
-branches:
-- main
-- staging
