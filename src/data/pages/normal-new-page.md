@@ -1,5 +1,5 @@
 ---
-title: normal page!
+title: normal page! ?
 template: some-cool-template
 hero:
   background_image:
