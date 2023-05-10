@@ -22,7 +22,7 @@
     "src": "/v1666340648/leighann-blackwood-gfTu43GaYXw-unsplash-2_qrgoqg.jpg",
     "alt": "woman blowing a dandelion",
     "background_image": {
-      "src": "/v1604565006/K_F_SODAS_web_gizqcc.jpg",
+      "src": "/v1669249558/brown-hope-events_wi18de.jpg",
       "alt": "Woman blowing a dandelion "
     }
   },
@@ -56,7 +56,7 @@
       "title": " Mailing Address",
       "type": "Address",
       "email_address": "",
-      "phone_number": "",
+      "phone_number": "(xxx) xxx - xxxx",
       "city": "Portland",
       "state": "OR",
       "zip_code": "97212",
@@ -70,7 +70,7 @@
       "zip_code": "97212",
       "state": "OR",
       "email_address": "",
-      "phone_number": ""
+      "phone_number": "(xxx) xxx - xxxx"
     }
   ],
   "social_media": [
@@ -104,7 +104,7 @@
       {
         "title": "Subscribe",
         "url": "/",
-        "external": false
+        "external": ""
       }
     ]
   },
@@ -117,12 +117,12 @@
       {
         "url": "/get-involved/events",
         "title": "View All Events",
-        "external": false
+        "external": ""
       }
     ]
   },
   "placeholder": {
-    "src": "/v1647504203/CHICKEN_PARM_t_mgbceh.jpg",
+    "src": "/v1667865608/markus-spiske-vrbZVyX2k4I-unsplash-2_cxlqnj.jpg",
     "alt": "hi"
   }
 }
