@@ -4,22 +4,22 @@
       {
         "title": "About",
         "url": "/about",
-        "external": false
+        "external": true
       },
       {
         "title": "Programs",
         "url": "/programs",
-        "external": false
+        "external": ""
       },
       {
         "title": "Get Involved",
         "url": "/get-involved",
-        "external": false
+        "external": ""
       },
       {
         "title": "News",
         "url": "/news",
-        "external": false
+        "external": ""
       }
     ],
     "nav_menu_buttons": [
@@ -37,7 +37,7 @@
     "nav_link_right": {
       "title": "Contact",
       "url": "/contact",
-      "external": false
+      "external": ""
     }
   },
   "footer": {
@@ -49,37 +49,37 @@
             "hidden": false,
             "title": "Black Resilience Fund",
             "url": "/programs/black-resilience-fund",
-            "external": false
+            "external": ""
           },
           {
             "hidden": false,
             "title": "Power Hour",
             "url": "/programs/power-hour",
-            "external": false
+            "external": ""
           },
           {
             "hidden": false,
             "title": "Solidarity Squad",
             "url": "/programs/solidarity-squad",
-            "external": false
+            "external": ""
           },
           {
             "hidden": false,
             "title": "Blackstreet Bakery",
             "url": "/programs/blackstreet-bakery",
-            "external": false
+            "external": ""
           },
           {
             "hidden": false,
             "title": "Equity & Beyond",
             "url": "/programs/equity-and-beyond",
-            "external": false
+            "external": ""
           },
           {
             "hidden": false,
             "title": "Healing Initiatives",
             "url": "/programs/healing-initiatives",
-            "external": false
+            "external": ""
           }
         ],
         "hidden": false
@@ -91,19 +91,19 @@
             "hidden": false,
             "title": "Press Kit",
             "url": "",
-            "external": false
+            "external": ""
           },
           {
             "hidden": false,
             "title": "FAQ",
             "url": "/faq",
-            "external": false
+            "external": ""
           },
           {
             "hidden": false,
             "title": "Newsletter",
             "url": "",
-            "external": false
+            "external": ""
           }
         ],
         "hidden": false
