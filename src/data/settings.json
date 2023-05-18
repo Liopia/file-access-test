@@ -104,7 +104,7 @@
       {
         "title": "Subscribe",
         "url": "/",
-        "external": ""
+        "external": false
       }
     ]
   },
@@ -117,7 +117,7 @@
       {
         "url": "/get-involved/events",
         "title": "View All Events",
-        "external": ""
+        "external": true
       }
     ]
   },
