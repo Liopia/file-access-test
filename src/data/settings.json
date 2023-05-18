@@ -117,7 +117,7 @@
       {
         "url": "/get-involved/events",
         "title": "View All Events",
-        "external": true
+        "external": false
       }
     ]
   },
